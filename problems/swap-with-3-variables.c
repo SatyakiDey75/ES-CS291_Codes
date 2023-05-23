@@ -1,4 +1,4 @@
-// Write a program to multiplying 2 floating point numbers.
+// Write a program to swap 2 numbers using 3rd variable.
 //
 // Output:
 //
