@@ -1,4 +1,4 @@
-// Write a program to sort an array using Bubble Sort
+// Write a program to sort an array using Insertion Sort
 //
 // Output:
 //
