@@ -1,12 +1,18 @@
+// Write a program to display the diamond pattern with spaces.
+//
+// Ouput:   
+//
+// Enter rows : 7   
+// ********
+// ***  ***
+// **    **
+// *      *
+// **    **
+// ***  ***
+// ********
+
+
 #include <stdio.h>
-//for rows=7
-/*    ********
-      ***  ***
-      **    **
-      *      *
-      **    **
-      ***  ***
-      ********   */
 int main() {
     int rows,i,j,k,l;
     printf("Enter rows : ");
