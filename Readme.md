@@ -27,7 +27,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## License
-[Unlicense © Satyaki Dey](https://github.com/SatyakiDey75/ES-CS291_Codes/blob/main_aditya/License)
+[Unlicense © Satyaki Dey](https://github.com/SatyakiDey75/ES-CS291_Codes/blob/LICENSE)
 
 <!-- ## What next?
 I will be working on the 3rd semester programs which I will be uploading as well. -->
