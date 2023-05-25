@@ -20,23 +20,13 @@ void main()
     printf("The largest element is : ");
     max=1;
     for(int i=0;i<n;i++)
-    {
         if (a[i]>max)
-        {
             max=a[i];
-            j=i;
-        }
-    }
     printf("%d\n",max);
-    if (j+1!=n)
-    {
-        d=max-a[j+1];
-        max2=a[j+1];
-    }
-    else
-    {
-        d=max-a[j-1];
-        max2=a[j-1];
+    d=max-a[0];
+    for (int i=1;i<n && d==0;i++){
+        d=max-a[i];
+        max2=a[i];
     }
     for(int i=0;i<n;i++)
         if (d>(max-a[i]) && (max-a[i])!=0)
