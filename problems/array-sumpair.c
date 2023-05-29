@@ -1,4 +1,7 @@
-/*
+// Write a program to check if pair with given sums exist in an array
+
+/* Output:
+
 Enter the size of array: 5
 Enter the elements of the Matrix: 
 1
