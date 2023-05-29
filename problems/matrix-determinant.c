@@ -1,4 +1,7 @@
-/*
+//Write a C program to find determinant of a 3*3 matrix.
+
+/* Output:
+
 Enter elements in matrix of size 3x3: 
 1
 5
