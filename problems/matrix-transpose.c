@@ -1,4 +1,7 @@
-/*
+//Write a C program to find transpose of a square matrix
+
+/* Output:
+
 Enter the no of rows and columns: 3
 Enter the elements of the Matrix: 
 1
