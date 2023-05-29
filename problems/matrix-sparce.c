@@ -1,4 +1,8 @@
-/*
+//Write a C program to check if a matrix is sparce or not. 
+//Logic: No of zero elements more than  non-zero elements.
+
+/* Output:
+
 Enter the no of rows and columns: 2
 3
 Enter the elements of the Matrix:
@@ -14,7 +18,7 @@ Enter the elements of the Matrix:
 0       0       0
 Sparse Matrix         */
 
-/* Logic: No of zero more than  non-zero*/
+
 
 
 #include<stdio.h>
