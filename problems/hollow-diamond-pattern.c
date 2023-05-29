@@ -1,4 +1,7 @@
-/*Enter odd no of rows:
+// Write a C program to print a hollow diamond pattern
+
+/* Output:
+Enter odd no of rows:
 9
     *
    * *
