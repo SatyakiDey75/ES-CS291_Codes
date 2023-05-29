@@ -1,4 +1,7 @@
-/* 
+// Write a C program to print a two-stair pattern
+
+/* Output:
+
 Enter even no of rows:
 8
 *      *
