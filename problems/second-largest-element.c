@@ -18,18 +18,27 @@ void main()
     for(int i=0;i<n;i++)
         scanf("%d",&a[i]); 
     printf("The largest element is : ");
-    max=1;
-    for(int i=0;i<n;i++)
-        if (a[i]>max)
-            max=a[i];
-    printf("%d\n",max);
-    d=max-a[0];
-    for (int i=1;i<n && d==0;i++){
-        d=max-a[i];
-        max2=a[i];
+    if (n==1)
+    {
+        printf("%d\n",a[0]);
+        printf("The second largest element is : %d",a[0]);
     }
-    for(int i=0;i<n;i++)
-        if (d>(max-a[i]) && (max-a[i])!=0)
-            max2=a[i];
-    printf("The second largest element is : %d",max2);
+    else
+    {
+        max=1;
+        for(int i=0;i<n;i++)
+        {
+            if (a[i]>max)
+            {
+                max=a[i];
+                d=max-a[i-1];
+                max2=a[i-1];
+            }
+        }
+        printf("%d\n",max);
+        for(int i=0;i<n;i++)
+            if (d>(max-a[i]) && (max-a[i])!=0)
+                max2=a[i];
+        printf("The second largest element is : %d",max2);
+    }
 }
